@@ -1,0 +1,22 @@
+{
+    "name": "brenodouglas/october-scaffold",
+    "description": "Module is wrapper for scallfooding commands in octoberCMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "breninho94",
+            "email": "breninho94@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/console": "^3.0@dev",
+        "illuminate/console": "^5.2@dev"
+    },
+    "autoload": {
+       "psr-4": {
+            "BrenoDouglas\\": "src/BrenoDouglas/"
+       }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
