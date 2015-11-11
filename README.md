@@ -5,9 +5,7 @@ This package provide one artisan command of generator to speed up your developme
 - `generate:scaffold`
 
 ## Installation with composer
-- ```
-    composer require brenodouglas/october-scaffold
-```
+- `composer require brenodouglas/october-scaffold`
 
 ## Registration and executation
 - Open `config/app.php` and add new item in provider array:
