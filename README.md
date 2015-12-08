@@ -9,7 +9,9 @@ This package provide one artisan command of generator to speed up your developme
 
 ## Registration and executation
 - Open `config/app.php` and add new item in provider array:
-    `BrenoDouglas\Provider\ScaffoldWrapperServiceProvider`
+    `
+        BrenoDouglas\Provider\ScaffoldWrapperServiceProvider
+    `
     
 - Run command:
     `php artisan generate:scaffold PluginAuthor.Name Resource --force`
